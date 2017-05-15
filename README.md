@@ -1,5 +1,10 @@
 # DEMON-GUIDE
-This is a guide on how to use DEMON
+This is a guide on how to use the Dynamic Exploration of Microparticle clouds Optimized Numerically (DEMON) simulation code. In this guide, we will focus primarily on developers who desire to work with or on the DEMON codebase. For this reason, shorthand notation may be used frequently to describe methods common in the area of computer science; moreover, because DEMON is written in C++, a minimal understanding of C++ is required. Even so, we will attempt to write this documentation in a way that is simultaneously understandible and concise. 
+
+If you have any questions, please feel free to e-mail us at any of the following e-mail addresses:
+
+* jrs.schloss@gmail.com
+* More to come!
 
 ### Requirements:
 
@@ -14,20 +19,6 @@ Also make sure you have CMake installed from here:
 http://www.cmake.org/
 
 A step by step installation guide for mac and linux devices will be in section 4
-
-### Compiling:
-
-    Download and build libcfitsio.a from the above link.
-
-### Sections:
-
-    1. Using CMake:
-    2. Using xcode:
-    3. Multicore Support on Linux:
-    4. Step-by-step installation on linux and mac devices
-    5. Notes on github
-    6. Looking at Data
-
 
 ### 1. Using CMake:
 
